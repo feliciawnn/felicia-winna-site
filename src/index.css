@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-background: #faf7f2;
+  --color-brown: #3a2f2a;
+  --color-brown-light: #8b7e74;
+  --color-secondary: #d47c6a;
+  --color-onhover-primary: #bf6d5d;
+  --color-onhover-sec: #c16653;
+  --default-border-color: #d47c6a;
+  --font-serif: "Instrument Serif", serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+button:hover {
+  transition-timing-function: var(--ease-in);
+  transition-duration: 100ms;
+}
+
+.animate-marquee {
+  width: fit-content;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
