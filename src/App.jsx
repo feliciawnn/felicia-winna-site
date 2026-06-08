@@ -235,7 +235,7 @@ function App() {
       <div className="bg-background w-full h-full">
         <div className="-translate-y-[20px]">
           <div className="min-h-[400px] p-4 bg-brown [clip-path:ellipse(120%_100%_at_50%_100%)] text-white flex justify-center items-center">
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:divide-x py-12 px-12">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:divide-x py-12 px-12 animate-float-up">
               {PERSONAL_VALUES.map((item, i) => (
                 <div
                   className="flex flex-col items-center justify-center gap-4"

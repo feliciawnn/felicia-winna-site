@@ -2,6 +2,7 @@
   "name": "felicia-winna-resume",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://feliciawnn.github.io/felicia-winna-sitead/",
   "type": "module",
   "scripts": {
     "dev": "vite",
